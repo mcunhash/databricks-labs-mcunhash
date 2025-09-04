@@ -205,3 +205,44 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# SO e IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+.python-version
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Jupyter/Databricks
+.ipynb_checkpoints/
+# (mantenha arquivos .dbc/.py exportados de notebooks se quiser versionar)
+
+# Dados e artefatos locais (não versionar)
+data/
+datasets/
+data_raw/
+data_parquet/
+data_delta/
+outputs/
+logs/
+tmp/
+
+# Spark/Delta locais
+.sparkStaging/
+.metastore_db/
+spark-warehouse/
+derby.log
